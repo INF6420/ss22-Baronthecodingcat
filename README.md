@@ -1,2 +1,35 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/cSGmFTKd)
-# INF 6420 - Intro to Web Development
+# Rachel Anderson's INF6420 Project
+
+A family history website for my family
+
+## wireframes
+
+![wireframe of Home Page](wireframes/Home_Wireframe.jpg)
+
+Header -will include Title and my name
+
+Navigation Menu -will include links to other pages like an About Me page and social media links
+
+Main content -will include a search box and lists of family names with content on the site
+
+Footer -will include copyright information and site navigation links
+
+![wireframe of About Me Page](wireframes/About_Wireframe.jpg)
+
+Header -will include Title and my name
+
+Navigation Menu -will include links to other pages like an About Me page and social media links
+
+Main content -will include introdcution, contact information, and blog posts
+
+Footer -will include copyright information and site navigation links
+
+![wireframe of Anderson Surname](wireframes/Anderson_Surname_Wireframe.jpg)
+
+Header -will include Title and my name
+
+Navigation Menu -will include links to other pages like an About Me page and social media links
+
+Main content -will include Surname as h2, a brief history, a pedigree, and photos
+
+Footer -will include copyright information and site navigation links
