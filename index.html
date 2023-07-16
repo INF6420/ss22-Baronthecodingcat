@@ -15,13 +15,52 @@
       <a href="about.html">About Me</a>
       <a href="contact.html">Contact</a>
     </nav>
-  </header>
-  <main class="index">
-    <h1 class="search">Search</h1>
-    <form acction="/form/submit" method="GET">
-      <input type="text" name="text" class="search" placeholder="Search Here" />
-      <input type="submit" name="submit" class="submit" value="Search" />
-    </form>
+   </header>
+   <style>
+    ul {
+        list-style-type: none;
+    }
+    #search {
+        margin-top: 100;
+    }
+    form {
+        width: 400px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    input {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .search {
+        width: 75%;
+    }
+
+    .submit {
+         width: 70px;
+        background-color: #906237;
+        color: #ffffff;
+        border-radius: 4px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    [type="submit"]:hover {
+  background: #51371f;
+}
+   </style>
+   <main id="index">
+        <h1 id="search">Search</h1>
+        <form acction="/form/submit" method="GET">
+            <input type="text" name="text" class="search" placeholder="Search Here">
+            <input type="submit" name="submit" class="submit" value="Search">
+        </form>
     <h1>Browse by Family Name</h1>
     <div class="namesc">
       <ul>
@@ -50,17 +89,16 @@
   </main>
   <footer>
     <div class="row">
-      Copyright &copy; 2023 All Rights Reserved by Rachel Anderson
-    </div>
-    <div class="fcolumn">
-      <ul>
-        <li>
-          <a href="https://www.ancestry.com/profile/01691e4c-0003-0000-0000-000000000000">Ancestry Profile</a>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+        Copyright &copy; 2023 All Rights Reserved by Rachel Anderson
+        </div>
+        <div class="fcolumn">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.ancestry.com/profile/01691e4c-0003-0000-0000-000000000000">Ancestry Profile</a></li>
+            </ul>
+        </div>
     </div>
   </footer>
 </body>
