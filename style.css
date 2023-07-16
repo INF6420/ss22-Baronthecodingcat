@@ -1,8 +1,7 @@
-
 * {
-    box-sizing: border-box;
-    padding: 10 10;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 10;
+  margin: 0
 }
 
 <link rel="stylesheet"
@@ -14,16 +13,17 @@ body {
     padding-top: 1em;
 }
 
-a {
-    color: #160f09;
-}
-
-img {
-    max-width: 100%;
+a,
+body {
+  color: #160f09
 }
 
 address {
-    font-style: normal
+  font-style: normal
+}
+
+.title {
+  font-size: 300%
 }
 
 .header {
@@ -49,14 +49,14 @@ address {
     display: inline-block;
 }
 
-#index {
-    font-size: 200%;
-    text-align: center;
+.index {
+  font-size: 200%;
+  text-align: center
 }
 
 .namesc {
-    display: inline-block;
-    width: 500px;
+  display: inline-block;
+  width: 500px;
   margin: 20px auto;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -66,8 +66,6 @@ address {
     border-width: 5px;
     border-radius: 4px;
 }
-      
-
 
 footer {
     width: 100%;
@@ -78,12 +76,71 @@ footer {
     font-size: 150%;
     color: #160f09;
     padding: 10px 10px 10px 10px;
-   
 }
+
+.blog:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px
+  }
+
+  img {
+    height: auto;
+    width: auto
+  }
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  height: auto
+}
+
+.fcolumn,
+.header {
+  background: #906237;
+  color: #160f09
+}
+
+.header {
+  position: sticky;
+  font-size: 200%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
 .fcolumn {
-    background: #906237;
-    font-size: 110%;
-    color: #160f09;
-    list-style-type: none;
-    column-count: 2;
+  font-size: 110%;
+  list-style-type: none;
+  column-count: 2
+}
+
+.featured-image {
+  align-items: center
+}
+
+.gallery {
+  display: inline-block
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, .5)
 }
