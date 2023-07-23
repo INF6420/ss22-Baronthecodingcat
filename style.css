@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 10;
   margin: 0
 }
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Rubik">
 body {
-    background: #f9f0e7;
-    color: #160f09;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 1em;
+  background: #f9f0e7;
+  color: #160f09;
+  font-family: 'Rubik', sans-serif;
+  padding-top: 1em;
 }
 
 a,
@@ -27,26 +27,27 @@ address {
 }
 
 .header {
-    position: sticky;
-    background: #906237;
-    font-size: 200%;
-    color: #160f09;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
+  position: sticky;
+  background: #906237;
+  font-size: 200%;
+  color: #160f09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
 }
 
 #title {
-    background: #906237;
-    color: #160f09;
-    font-size: 300%;
+  background: #906237;
+  color: #160f09;
+  font-size: 300%;
 }
+
 #nav {
-    background: #906237;
-    font-size: 100%;
-    color: #160f09;
-    display: inline-block;
+  background: #906237;
+  font-size: 100%;
+  color: #160f09;
+  display: inline-block;
 }
 
 .index {
@@ -59,23 +60,24 @@ address {
   width: 500px;
   margin: 20px auto;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-    border-style: solid;
-    border-color: #160f09;
-    border-width: 5px;
-    border-radius: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #160f09;
+  border-width: 5px;
+  border-radius: 4px;
 }
 
 footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #906237;
-    font-size: 150%;
-    color: #160f09;
-    padding: 10px 10px 10px 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #906237;
+  font-size: 150%;
+  color: #160f09;
+  padding: 10px 10px 10px 10px;
+
 }
 
 .blog:after {
