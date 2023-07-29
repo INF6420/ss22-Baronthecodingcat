@@ -5,12 +5,11 @@
     margin: 0;
 }
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Rubik">
 body {
     background: #f9f0e7;
     color: #160f09;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    height: 100%;
     padding-top: 1em;
 }
 
@@ -28,6 +27,8 @@ address {
 
 .header {
     position: sticky;
+    top: 0;
+    height: 150px;
     background: #906237;
     font-size: 200%;
     color: #160f09;
@@ -54,6 +55,13 @@ address {
     text-align: center;
 }
 
+#main {
+        min-height: 100vh - 250px;
+        margin: -150px 0 -100px;
+        padding: 150px 0 100px;
+        box-sizing:border-box;
+}
+
 .namesc {
     display: inline-block;
     width: 500px;
@@ -68,22 +76,56 @@ address {
 }
       
 
-
 footer {
     width: 100%;
-    position: absolute;
+    height: 100px;
+    position: sticky;
     bottom: 0;
     left: 0;
+    right: 0;
     background: #906237;
     font-size: 150%;
     color: #160f09;
     padding: 10px 10px 10px 10px;
-   
+    clear: both;
 }
+
 .fcolumn {
     background: #906237;
     font-size: 110%;
     color: #160f09;
     list-style-type: none;
     column-count: 2;
+    clear: both;
 }
+
+.about-column {
+    display: inline-block;
+    vertical-align:top;
+    align-items: center;
+}
+
+.blog {margin: 0 -5px;
+clear:both;}
+.blog:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: inline-block;
+margin-bottom: 20px;
+}
+img{
+height:auto;
+width: auto;
+}
+
