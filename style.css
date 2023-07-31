@@ -7,10 +7,11 @@
 }
 
 body {
-  background: #f9f0e7;
-  color: #160f09;
-  font-family: 'Rubik', sans-serif;
-  padding-top: 1em;
+    background: #f9f0e7;
+    color: #160f09;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    height: 100%;
+    padding-top: 1em;
 }
 
 a,
@@ -27,14 +28,16 @@ address {
 }
 
 .header {
-  position: sticky;
-  background: #906237;
-  font-size: 200%;
-  color: #160f09;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
+    position: sticky;
+    top: 0;
+    height: 150px;
+    background: #906237;
+    font-size: 200%;
+    color: #160f09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
 }
 
 #title {
@@ -53,6 +56,13 @@ address {
 .index {
   font-size: 200%;
   text-align: center
+}
+
+#main {
+        min-height: 100vh - 250px;
+        margin: -150px 0 -100px;
+        padding: 150px 0 100px;
+        box-sizing:border-box;
 }
 
 .namesc {
@@ -96,53 +106,54 @@ footer {
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
-    display: inline-block;
-    margin-bottom: 20px
-  }
-
-  img {
-    height: auto;
-    width: auto
-  }
-}
-
-img {
-  max-width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 300px;
-  height: auto
-}
-
-.fcolumn,
-.header {
-  background: #906237;
-  color: #160f09
-}
-
-.header {
-  position: sticky;
-  font-size: 200%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center
+    height: 100px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #906237;
+    font-size: 150%;
+    color: #160f09;
+    padding: 10px 10px 10px 10px;
+    clear: both;
 }
 
 .fcolumn {
-  font-size: 110%;
-  list-style-type: none;
-  column-count: 2
+    background: #906237;
+    font-size: 110%;
+    color: #160f09;
+    list-style-type: none;
+    column-count: 2;
+    clear: both;
 }
 
-.featured-image {
-  align-items: center
+.about-column {
+    display: inline-block;
+    vertical-align:top;
+    align-items: center;
 }
 
-.gallery {
-  display: inline-block
+.blog {margin: 0 -5px;
+clear:both;}
+.blog:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: inline-block;
+margin-bottom: 20px;
+}
+img{
+height:auto;
+width: auto;
 }
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, .5)
-}
