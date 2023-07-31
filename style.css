@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
-    box-sizing: border-box;
-    padding: 10 10;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 10;
+  margin: 0
 }
 
 body {
@@ -13,16 +14,17 @@ body {
     padding-top: 1em;
 }
 
-a {
-    color: #160f09;
-}
-
-img {
-    max-width: 100%;
+a,
+body {
+  color: #160f09
 }
 
 address {
-    font-style: normal
+  font-style: normal
+}
+
+.title {
+  font-size: 300%
 }
 
 .header {
@@ -39,20 +41,21 @@ address {
 }
 
 #title {
-    background: #906237;
-    color: #160f09;
-    font-size: 300%;
-}
-#nav {
-    background: #906237;
-    font-size: 100%;
-    color: #160f09;
-    display: inline-block;
+  background: #906237;
+  color: #160f09;
+  font-size: 300%;
 }
 
-#index {
-    font-size: 200%;
-    text-align: center;
+#nav {
+  background: #906237;
+  font-size: 100%;
+  color: #160f09;
+  display: inline-block;
+}
+
+.index {
+  font-size: 200%;
+  text-align: center
 }
 
 #main {
@@ -63,20 +66,45 @@ address {
 }
 
 .namesc {
-    display: inline-block;
-    width: 500px;
+  display: inline-block;
+  width: 500px;
   margin: 20px auto;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-    border-style: solid;
-    border-color: #160f09;
-    border-width: 5px;
-    border-radius: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #160f09;
+  border-width: 5px;
+  border-radius: 4px;
 }
-      
 
 footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #906237;
+  font-size: 150%;
+  color: #160f09;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.blog:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1
+}
+
+@media screen and (max-width:600px) {
+  .column {
     width: 100%;
     height: 100px;
     position: sticky;
